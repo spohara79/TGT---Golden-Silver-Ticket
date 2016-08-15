@@ -1,4 +1,5 @@
-# Ticket Granting Ticket Golden / Silver Ticket
+# Ticket Granting Ticket 
+**Golden / Silver Ticket**
 
 Scripts to help hunt for possible golden/silver TGT tickets, by comparing the domain policy of the Max-Ticket-Age to cached tickets on a local system.
 
