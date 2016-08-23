@@ -93,7 +93,7 @@ function Search-SilverTicketFromSession {
     $ticketLowPart = klist.exe tickets -li $sessionId
     $lineCount = 0
     foreach ($line in $ticketLowPart) {
-        if ($line -match '#\d>') {
+        if ($line -match '#\d+>') {
             Try {
                 $__, $startTime = $ticketLowPart[$lineCount+4].Split(':', 2)
             }
