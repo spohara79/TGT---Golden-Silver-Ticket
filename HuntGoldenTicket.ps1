@@ -7,7 +7,7 @@
         MaxAge is a [TimeSpan] object that represents the maximum age of kerberos tickets defined in the domain policy
     .PARAMETER SourceName
         SourceName is an optional parameter that specifies the name of the application the event is written
-    .PARAMTER EventId
+    .PARAMETER EventId
         EventId is a optional comma separated pair of event IDs <golden event id, silver event id> (one for golden and one for silver); this defaults to 3001 and 3002
         E.g. 42001,42002 where the golden event id is 42001 and the silver event id is 42002
 #>
